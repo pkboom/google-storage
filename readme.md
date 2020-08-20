@@ -1,6 +1,7 @@
 # Manage Google Storage Bucket for Laravel applications
 
 [![Latest Stable Version](https://poser.pugx.org/pkboom/google-storage/v)](//packagist.org/packages/pkboom/google-storage)
+[![Total Downloads](https://poser.pugx.org/pkboom/google-storage/downloads)](//packagist.org/packages/pkboom/google-storage)
 
 This package makes working with Google Storage a breeze. Once it has been set up you can do these things:
 
