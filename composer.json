@@ -1,0 +1,34 @@
+{
+  "name": "pkboom/google-storage",
+  "description": "",
+  "keywords": [
+    "pkboom",
+    "google-storage"
+  ],
+  "homepage": "https://github.com/pkboom/google-storage",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Keunbae Park",
+      "email": "ppotpo@gmail.com"
+    }
+  ],
+  "require": {
+    "php": "^7.3"
+  },
+  "autoload": {
+    "psr-4": {
+      "Pkboom\\GoogleStorage\\": "src"
+    }
+  },
+  "config": {
+    "sort-packages": true
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Pkboom\\GoogleStorage\\GoogleStorageServiceProvider"
+      ]
+    }
+  }
+}
